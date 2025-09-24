@@ -1,67 +1,68 @@
-Azure Cloud Data Engineering Project
-Project Overview
+**Azure Cloud Data Engineering Project**
 
-This project demonstrates an end-to-end data engineering solution on Microsoft Azure Cloud. It covers the complete lifecycle of data ingestion, transformation, storage, and analytics using Azure Data Factory, Azure Storage, Azure Synapse Analytics, and PySpark.
+**Project Overview**
 
-The dataset used is a Brazilian E-commerce dataset from Kaggle, which provides detailed transactional, customer, and geographic data.
+- This project demonstrates an end-to-end data engineering solution on Microsoft Azure Cloud. It covers the complete lifecycle of data ingestion, transformation, storage, and analytics using Azure Data Factory, Azure Storage, Azure Synapse Analytics, and PySpark.
 
-Key Objectives
+- The dataset used is a Brazilian E-commerce dataset from Kaggle, which provides detailed transactional, customer, and geographic data.
 
-Build a robust ETL/ELT pipeline to ingest and transform large datasets.
+**Key Objectives**
 
-Leverage Azure Data Factory to orchestrate data pipelines.
+1. Build a robust ETL/ELT pipeline to ingest and transform large datasets.
 
-Store raw and processed data efficiently using Azure Storage Accounts.
+2. Leverage Azure Data Factory to orchestrate data pipelines.
 
-Use Azure Synapse Analytics for scalable data warehousing and analytics.
+3. Store raw and processed data efficiently using Azure Storage Accounts.
 
-Implement data transformations with PySpark for processing and cleansing.
+4. Use Azure Synapse Analytics for scalable data warehousing and analytics.
 
-Architecture
+5. Implement data transformations with PySpark for processing and cleansing.
 
-Data Ingestion:
+**Architecture**
 
-Data is ingested from the Kaggle e-commerce dataset into Azure Blob Storage.
+**Data Ingestion:**
 
-Data Transformation:
+- Data is ingested from the Kaggle e-commerce dataset into Azure Blob Storage.
 
-PySpark scripts transform and clean the raw data.
+**Data Transformation:**
 
-Data quality checks and validations are performed during processing.
+- PySpark scripts transform and clean the raw data.
 
-Data Orchestration:
+- Data quality checks and validations are performed during processing.
 
-Azure Data Factory pipelines orchestrate the workflow from ingestion to transformation to storage.
+**Data Orchestration:**
 
-Data Storage and Analytics:
+- Azure Data Factory pipelines orchestrate the workflow from ingestion to transformation to storage.
 
-Transformed data is stored in Azure Synapse for analytics.
+**Data Storage and Analytics:**
 
-Enables reporting and insights generation on customer behavior and sales trends.
+- Transformed data is stored in Azure Synapse for analytics.
 
-Technologies Used
+- Enables reporting and insights generation on customer behavior and sales trends.
 
-Azure Data Factory (ADF) – Pipeline orchestration and workflow automation
+**Technologies Used**
 
-Azure Storage Account – Raw and processed data storage
+1. Azure Data Factory (ADF) – Pipeline orchestration and workflow automation
 
-Azure Synapse Analytics – Data warehouse for analytics
+2. Azure Storage Account – Raw and processed data storage
 
-PySpark – Data processing and transformations
+3. Azure Synapse Analytics – Data warehouse for analytics
 
-Kaggle Brazilian E-commerce Dataset – Sample dataset for demonstration
+4. PySpark – Data processing and transformations
 
-Project Highlights
+5. Kaggle Brazilian E-commerce Dataset – Sample dataset for demonstration
 
-Designed and implemented end-to-end ETL pipeline in Azure.
+**Project Highlights**
 
-Processed and transformed large-scale e-commerce data using PySpark.
+- Designed and implemented end-to-end ETL pipeline in Azure.
 
-Applied data quality checks to ensure clean and reliable datasets.
+- Processed and transformed large-scale e-commerce data using PySpark.
 
-Enabled scalable analytics using Azure Synapse for business insights.
+- Applied data quality checks to ensure clean and reliable datasets.
 
-How to Run
+- Enabled scalable analytics using Azure Synapse for business insights.
+
+**How to Run**
 
 Clone the repository:
 
@@ -76,13 +77,13 @@ Trigger Azure Data Factory pipelines to ingest and process the data.
 
 View processed data and analytics in Azure Synapse Analytics.
 
-Dataset
+**Dataset**
 
 Brazilian E-commerce dataset from Kaggle: https://www.kaggle.com/datasets
 
 Includes customer orders, payments, products, and geolocation information.
 
-Outcome
+**Outcome**
 
 Successfully built a cloud-based data pipeline for e-commerce analytics.
 
